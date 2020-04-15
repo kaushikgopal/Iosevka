@@ -13,4 +13,5 @@
     # update your chosen style
 
     npm run build -- contents::iosevka-kg
-    npm run build -- ttf::iosevka-term-kg
+    npm run build -- ttf::iosevka-kg
+    # fonts should be in dist/
