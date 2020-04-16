@@ -1,7 +1,10 @@
-[buildPlans.iosevka-kg]                             # <iosevka-kg> is your plan name
-family = "Iosevka KG"                               # Font menu family name
-design = ["cv10", "cv19", "cv24", "cv46", "cv51", "cv65", "cv92"] # Customize styles
-hintParams = ["-a", "sss"]                          # Optional custom parameters for ttfautohint
+[buildPlans.kg]                 # <kg> is your plan name
+family = "Iosevka KG Terminal"          # Font menu family name
+design = [
+            "cv08", "cv11", "cv19", "cv43", "cv49", "cv55", "cv92",
+            "no-ligation"
+         ] # Customize styles
+hintParams = ["-a", "sss"]              # Optional custom parameters for ttfautohint
 
 
 # Override default building weights
@@ -10,17 +13,12 @@ hintParams = ["-a", "sss"]                          # Optional custom parameters
 # IMPORTANT : Currently "menu" and "css" property only support numbers between 0 and 1000.
 #              and "shape" properly only supports number between 100 and 900 (inclusive)
 
-[buildPlans.iosevka-kg.weights.regular]
-shape = 400  # Weight for glyph shapes
-menu  = 400  # Weight for menu name
-css   = 400  # Weight for webfont CSS
+[buildPlans.kg.weights.regular]
+shape = 500  # Weight for glyph shapes
+menu  = 500  # Weight for menu name
+css   = 500  # Weight for webfont CSS
 
-[buildPlans.iosevka-kg.weights.medium]
-shape = 500
-menu  = 500
-css   = 500
-
-[buildPlans.iosevka-kg.weights.bold]
+[buildPlans.kg.weights.bold]
 shape = 700
 menu  = 700
 css   = 700
@@ -29,20 +27,15 @@ css   = 700
 # Override default building slant sets
 # Format: <upright|italic|oblique> = <"normal"|"italic"|"oblique">
 # When this section is absent, all slants would be built.
-[buildPlans.iosevka-kg.slants]
+[buildPlans.kg.slants]
 upright = "normal"
 italic = "italic"
-#oblique = "oblique"
+oblique = "italic"
 
 
 ##########################
 #  Custom style chosen
 ##########################
-
-# Iosevka Term
-# Medium Extended
-# "cv10", "cv16", "cv19", "cv24", "cv46", "cv51", "cv65", "cv92"
-# calt - ligatures
 
 
 # 100 	Thin (Hairline)
