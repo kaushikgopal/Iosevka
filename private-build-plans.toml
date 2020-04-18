@@ -1,9 +1,10 @@
 [buildPlans.kg]                 # <kg> is your plan name
 family = "Iosevka KG Terminal"  # Font menu family name
 design = [
-            "cv08", "cv11", "cv19", "cv43", "cv49", "cv55", "cv62", "cv92",
-           #`l`,    `g`,    `*`,     `Q`,   `y`,    `$`,    `%` and `G`
-            "no-ligation"
+            "cv08", "cv11", "cv19", "cv43", "cv49", "cv55", "cv62", "cv67", "cv92",
+           #`l`,    `g`,    `*`,     `Q`,   `y`,    `$`,    `%`,    <= and  `G`
+           #"no-ligation",
+            "ligset-swift"
          ] # Customize styles
 hintParams = ["-a", "sss"]              # Optional custom parameters for ttfautohint
 
